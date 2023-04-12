@@ -1,0 +1,955 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main,
+footer,
+header {
+    overflow: hidden;
+}
+
+.backgroundimage {
+
+    width: 100%;
+    height: 900px;
+
+    object-fit: cover;
+    position: absolute;
+
+    object-position: bottom;
+}
+
+.subdiv1 img {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.nav-item {
+    margin: 0px 110px;
+    font-size: 23px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.logo {
+    margin-right: 200px;
+    width: 208px;
+}
+
+.padding {
+    padding: 3px 50px !important;
+    font-size: 23px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.maindiv1 {
+    position: absolute;
+    display: flex;
+    grid-gap: 20px;
+    top: 41%;
+    margin-left: 87px;
+    font-size: 28px;
+    font-family: 'Libre Franklin', sans-serif;
+
+
+}
+
+header {
+    overflow: hidden;
+}
+
+.headerhight {
+    height: 900px;
+}
+
+.music {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 32%;
+    margin-left: 93px;
+    font-size: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.free {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #2D7A42;
+    margin-top: 30px;
+}
+
+.premium {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #2D7A42;
+    margin-top: 30px;
+}
+
+.maindivision1 {
+    background: url(../images/music.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.spotify {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+
+.new {
+    margin-left: 40px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 44px;
+    margin-top: 20px;
+}
+
+.songs {
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.maindivision2 {
+    background-color: #59eb7b5d;
+    height: 579px;
+    width: 96%;
+    margin: auto;
+}
+
+.listen {
+    padding-top: 30px;
+    padding-left: 90px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 35px;
+
+}
+
+.subdiv7 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.subdiv7 h3 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-weight: 350;
+}
+
+.subdiv8 {
+    display: flex;
+    margin-top: 45px;
+}
+
+.subdiv8 h3 {
+    font-size: 30px;
+    font-weight: 350;
+    margin-left: 20px;
+}
+
+.maindiv3 {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.subdiv8 img {
+    object-position: center;
+    width: 44px;
+}
+
+.pic2 {
+    margin-left: 200px;
+}
+
+.check {
+    width: 34px;
+    height: 34px;
+}
+
+.subdiv8 h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.progress {
+
+    width: 300px;
+    margin-left: 93px;
+    margin-top: 14px;
+}
+
+.maindivision3 {
+    margin-left: 120px;
+}
+
+.search {
+    width: 704px;
+    padding: 10px 0px 10px 16px;
+    margin-left: 91px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #59eb7b5a;
+    border: none;
+}
+
+input::placeholder {
+    font-size: 23px;
+    color: black;
+}
+
+.searchicon {
+
+    position: relative;
+    right: 61px;
+    top: -2px;
+}
+
+.display {
+    display: flex;
+    grid-gap: 124px;
+    margin-top: 52px;
+    margin-left: 175px;
+}
+
+.maindivision4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+.akm1{
+    margin-left: 206px;
+}
+
+.ktm {
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.atm {
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.rahu,
+.raja,
+.jaya,
+.imman,
+.ani,
+.gv {
+    font-size: 29px;
+    font-family: 'Inder', sans-serif;
+}
+
+.rahu {
+    margin-left: 36px;
+    margin-top: 20px;
+}
+
+.raja {
+    margin-left: 67px;
+}
+
+.jaya {
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.imman {
+    font-size: 29px;
+    font-family: 'Inder', sans-serif;
+    margin-left: 58px;
+    margin-top: 16px;
+}
+
+.ani {
+    margin-left: 83px;
+    margin-top: -6px;
+}
+
+.ani1 {
+    margin-top: 22px;
+}
+
+.gv {
+    margin-left: 47px;
+    margin-top: 10px;
+}
+
+.button1 {
+    padding: 5px 13px 5px 25px;
+    font-size: 25px;
+    border: none;
+    background-color: #46B860;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Inder', sans-serif;
+}
+
+.btn1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.para1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Inder', sans-serif;
+}
+
+.pic3 {
+    height: 807px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.greenback {
+    background-color: #a2eeb456;
+    height: 300px;
+}
+
+.maindivision5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.work {
+    text-align: center;
+}
+
+.pic4 {
+    width: 219px;
+    height: 219px;
+    margin-left: 50px;
+}
+
+.pic5 {
+    width: 218px;
+    height: 218px;
+    margin-left: 42px;
+}
+
+.pic6 {
+    width: 214px;
+    height: 214px;
+    margin-left: 42px;
+}
+
+.pic7 {
+    width: 218px;
+    height: 218px;
+    margin-left: 40px;
+}
+
+.work {
+    font-size: 25px;
+
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
+
+.gen {
+    font-size: 28px;
+    margin-top: 40px;
+    /* margin-left: 54px; */
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.maindivision6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pic8 {
+    height: 212px;
+    object-fit: cover;
+}
+
+.pic9 {
+    width: 200px;
+    margin: auto;
+
+    height: 204px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.pic10 {
+    height: 209px;
+    object-fit: cover;
+}
+
+.pic11 {
+    height: 206px;
+    width: 137px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.maindivision7 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.pic12 {
+    height: 300px;
+    width: 289px;
+    object-fit: cover;
+}
+
+.kitar {
+    margin-top: 56px;
+    margin-left: 110px;
+}
+
+.music1 {
+    margin-left: 368px;
+}
+
+.maindivision8 {
+    background-color: #59eb7b35;
+    width: 93%;
+    margin: auto;
+    height: 470px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.pic13 {
+
+    margin-left: 52px;
+    margin-top: 63px;
+
+}
+
+.adfree {
+    margin-top: 24px;
+    margin-left: 75px;
+    font-weight: bold;
+}
+
+.interrupt {
+
+    font-size: 21px;
+    text-align: center;
+    width: 272px;
+    margin-top: 36px;
+    margin-left: 42px;
+
+}
+
+.pic14 {
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.content {
+    margin-top: 33px;
+    font-weight: bold;
+}
+
+.shows {
+    font-size: 21px;
+    text-align: center;
+    width: 263px;
+    margin-top: 36px;
+}
+
+.pic15 {
+    margin-top: 71px;
+    margin-left: 33px;
+}
+
+.speakers {
+    font-size: 21px;
+    text-align: center;
+    width: 280px;
+    margin-top: 36px;
+    margin-left: -44px;
+}
+
+.hifi {
+    font-weight: bold;
+}
+
+.pic16 {
+
+    margin-top: 64px;
+    margin-left: 37px;
+}
+
+.download {
+
+    margin-top: 17px;
+    margin-left: -33px;
+    font-weight: bold;
+}
+
+.offline {
+    font-size: 21px;
+    text-align: center;
+    width: 263px;
+    margin-top: 36px;
+    margin-left: -40px;
+}
+
+.account {
+    font-size: 46px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inika', serif;
+}
+
+.type {
+    padding: 10px 5px 10px 10px;
+    width: 700px;
+    margin-top: 30px;
+    border: 2px solid #a2eeb4ea;
+
+}
+
+.type:hover {
+    border: 2px solid green;
+
+}
+
+.maindivision9 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+}
+
+input::placeholder {
+    color: #0000006b;
+
+}
+
+.login {
+    font-size: 25px;
+    text-align: center;
+    width: 150px;
+    height: 47px;
+    background-color: #a2eeb484;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.alogin {
+    text-decoration: none;
+}
+
+.btn3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.maindivision10 {
+    background-color: #A2EEB4;
+    width: 100%;
+    height: 630px;
+    margin-top: 60px;
+    border: 1px solid black;
+}
+
+.popular {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.footmusic {
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 40px;
+}
+
+.footradio {
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 40px;
+}
+
+.footplay {
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 40px;
+}
+
+.footapp {
+    margin-left: 80px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 40px;
+}
+
+.maindiv5 {
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.foot2 {
+    display: flex;
+    float: right;
+    margin-left: 600px;
+    margin-top: 24px;
+
+}
+
+.copy {
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    font-size: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.copyyes {
+    margin-left: 40px;
+
+}
+
+.krishna {
+    margin-left: 40px;
+}
+
+.icon1 {
+
+    width: 57px;
+    height: 57px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.icon2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.icon3 {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .logo {
+        margin-right: 0;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+    .free{
+        font-size: 20px;
+    }
+
+    header,
+    footer,
+    main {
+        overflow: hidden;
+    }
+
+    .music {
+        position: absolute;
+        top: 15%;
+        margin-left: 75px;
+        font-size: 30px;
+    }
+
+    .maindiv1 {
+        position: absolute;
+        grid-gap: 20px;
+        top: 25%;
+        margin-left: 20px;
+    }
+
+    .backgroundimage {
+        height: 315px;
+
+    }
+
+    .headerhight {
+        height: 300px;
+    }
+
+    .new {
+        font-size: 23px;
+        margin-left: 10px;
+    }
+
+    .spotify {
+        font-size: 36px;
+    }
+
+    .songs {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .listen {
+        padding-top: 30px;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .search {
+        width: 368px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .searchicon {
+        position: relative;
+        left: 335px;
+        top: -40px;
+        right: 0;
+    }
+
+    .display {
+        display: block;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .card {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .pic3 {
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .kitar {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .music1 {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .maindivision8,
+    .maindivision10,
+    .maindivision2 {
+        height: auto;
+    }
+
+    .pic13 {
+        margin-left: 65px;
+    }
+
+    .pic14,
+    .pic15,
+    .pic16 {
+        margin-left: 120px;
+    }
+
+    .content,
+    .hifi,
+    .download {
+        text-align: center;
+    }
+
+    .adfree {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .shows {
+        width: 100%;
+    }
+
+    .speakers,
+    .offline,
+    .interrupt {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .maindivision9 {
+        width: 80%;
+    }
+
+    .maindiv5 {
+        height: 78px;
+        display: block;
+    }
+
+    .pic2 {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .akm1 {
+        margin-left: 0px;
+    }
+    .ktm{
+        margin-left: 0px;
+    }
+    .az{
+        margin-left: 90px;
+    }
+
+    .subdiv7 h3 {
+        font-size: 23px;
+    }
+
+    .subdiv8 h3 {
+        margin-left: 40px;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+
+    .subdiv8 h4 {
+        font-size: 23px;
+    }
+
+    .maindivision3 {
+        margin-left: 10px;
+        width: 369px;
+    }
+
+    .progress {
+        width: 300px;
+        margin-left: 66px;
+        margin-top: 9px;
+    }
+
+    .rahu,
+    .jaya {
+        font-size: 23px;
+        margin-left: 55px;
+    }
+
+    .raja,
+    .imman,
+    .ani,
+    .gv {
+        font-size: 23px;
+        margin-left: 75px;
+    }
+
+    .gen {
+        font-size: 30px;
+        margin-top: 14px;
+        margin-left: 96px;
+
+        margin-bottom: 28px;
+
+    }
+
+    .footakm {
+        margin-left: -86px;
+    }
+
+    .footapp {
+        margin-left: 100px;
+    }
+
+    .copy {
+        margin-left: 6px;
+        margin-top: 30px;
+        display: flex;
+        font-size: 14px;
+    }
+
+    .foot2 {
+        display: flex;
+        float: right;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .icon,
+    .icon1,
+    .icon2,
+    .icon3 {
+        width: 32px;
+        height: 32px;
+        margin-right: 44px;
+    }
+
+    .icon1 {
+        width: 39px;
+        height: 39px;
+    }
+
+    .footmusic,
+    .footradio,
+    .footplay,
+    .footapp {
+        font-size: 36px;
+    }
+    .display h4{
+        font-size: 17px;
+    }
+    .movie{
+        width: 20px;
+    }
+    .subdiv8 img{
+        width: 40px;
+    }
+
+}
